@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    
+}
 nav{
-    background: #efefef;
+    background: #6ec3d8;
     width: 100%;
-    height: 8vh;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+.profile img{
+    width:110px;
+}
+.profile{
+     width: 22%;
+     height: 400px;
+     background: rgb(201, 197, 197);
+     transform: translateY(30% );
+     margin-left: 100px;
 }
